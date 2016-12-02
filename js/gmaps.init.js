@@ -35,9 +35,9 @@ function map() {
 	lat: 51.91749633,
 	lng: 4.522164578,
 	icon: image,
-	title: 'Turing Society',
+	title: 'ReStart Rotterdam',
 	infoWindow: {
-	content: '<p>Turing Society Rotterdam</p>'
+	content: '<p>ReStart Rotterdam</p>'
 	}
 	
     });
