@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Login page</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+</head>
+<body>
+        
+        <div class="row">
+            
+            
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                
+            </div>
+            
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                
+                <h1 class="text-center">Login to the platform</h1>
+                <label for="inputtext">Test the photo thing:</label>
+      
+		<link rel="stylesheet" href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css">
+
+
+<p>
+  This is the most minimal example of Dropzone. The upload in this example
+  doesn't work, because there is no actual server to handle the file upload.
+</p>
+
+<!-- Change /upload-target to your upload address -->
+
+                    
+                </div><!-- /input-group -->
+
+
+                <div id="response"></div>
+
+            </div>
+
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                
+            </div>
+            
+        </div>
+
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="file" id="photoFile" />
+
+            <input type="button" onclick="uploadPic();" value="Upload photo" id="upload" />
+            <input type="button" value="Login!" href="index.html">
+        </form>
+        
+
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="https://rawgit.com/enyo/dropzone/master/dist/dropzone.js"></script>
+		<!-- <script src="./path/to/dropzone.js"></script> -->
+		<script src="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="api.js"></script>
+</body>
+</html>
+
+
